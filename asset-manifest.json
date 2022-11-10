@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dark-light-theme-switcher/static/css/main.c6f6def5.css",
+    "main.js": "/dark-light-theme-switcher/static/js/main.2359ccf9.js",
+    "static/js/787.6b18a42e.chunk.js": "/dark-light-theme-switcher/static/js/787.6b18a42e.chunk.js",
+    "index.html": "/dark-light-theme-switcher/index.html",
+    "main.c6f6def5.css.map": "/dark-light-theme-switcher/static/css/main.c6f6def5.css.map",
+    "main.2359ccf9.js.map": "/dark-light-theme-switcher/static/js/main.2359ccf9.js.map",
+    "787.6b18a42e.chunk.js.map": "/dark-light-theme-switcher/static/js/787.6b18a42e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f6def5.css",
+    "static/js/main.2359ccf9.js"
+  ]
+}
