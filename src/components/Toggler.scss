@@ -1,0 +1,54 @@
+.toggler {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &__text  {
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #2B283A;
+  }
+
+  &__button {
+    position: relative;
+    width: 27px;
+    height: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: #2B283A;
+    border: 1px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    &:focus {
+      outline: 3px solid rgb(45, 122, 223);
+    }
+  }
+
+  &__circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  &--dark {
+    .toggler__button {
+      border-color: white;
+      background-color: #F5F5F5;
+    }
+    
+    .toggler__text {
+      color: white;
+    }
+    
+    .toggler__circle {
+      left: 50%;
+      background-color: black;
+    }
+  }
+}
